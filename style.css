@@ -1,0 +1,22 @@
+.head {
+    background-color: #272e5c;
+    height: 100vh;
+}
+
+.services p {
+    margin-bottom: 0;
+}
+
+.closing {
+    box-sizing: border-box;
+    padding-top: 23%;
+}
+
+.cards .card {
+    transition: all .3s;
+}
+
+.cards .card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 20px 17px -6px rgba(186, 186, 186, 1);
+}
