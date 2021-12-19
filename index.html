@@ -1,112 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container-fluid d-flex flex-column align-items-center head">
-        <h1 class="text-white text-center" style="font-weight: 400; font-size:4.5rem; margin-top:6%;">Simple Pricing!</h1>
-        <p class="text-white text-center mt-4" style="color: #929bb9 !important; width:650px;font-size: 1.5rem;">The most advanced customer support tools with a simple and affordable pricing. And you can always try for 30 days, free!</p>
-    </div>
-    <!-- CARDS -->
-    <div class="container" style="position: absolute; top:70%; left: 0; right: 0;">
-        <div class="cards">
-            <div class="row justify-content-center">
-                <div class="col-3">
-                    <!-- BASIC -->
-                    <div class="card">
-                        <div class="card-header" style="background-color:#3c4152; color:#d4d8e1; font-weight: 500;">
-                            <p style="margin-bottom: 0;">BASIC</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center" style="border-bottom: 1px solid #dddddd; border-radius: 5px;">
-                                <p class="mt-4" style="color:#a7a7a7; font-size:1.5rem; font-weight: 500;">$</p>
-                                <p style="font-size:5rem; font-weight: 400; color:#3c3c3c !important;">4<span style="font-weight: 400;font-size:1rem;color:#c7c7c7 !important;">/</span><span style="font-weight: 400;font-size:1rem; color:#c7c7c7 !important;">month</span></p>
-                            </div>
-                            <div class="services mt-4">
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">10</span> Projects</p>
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">10</span> Pages</p>
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">100</span> Mb Disk Space</p>
-                            </div>
-                            <div class="container d-flex justify-content-center mt-4">
-                                <a class="btn text-white buy" style="background-color: #019be9;">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <!-- STANDARD -->
-                    <div class="card">
-                        <div class="card-header d-flex justify-content-between align-items-center" style="background-color:#3c4152; color:#d4d8e1; font-weight: 500;">
-                            <p style="margin-bottom: 0;">STANDARD</p>
-                            <p style="margin-bottom: 0; font-size:0.8rem;">Save 15%</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center" style="border-bottom: 1px solid #dddddd; border-radius: 5px;">
-                                <p class="mt-4" style="color:#a7a7a7; font-size:1.5rem; font-weight: 500;">$</p>
-                                <p style="font-size:5rem; font-weight: 400; color:#3c3c3c !important;">8<span style="font-weight: 400;font-size:1rem;color:#c7c7c7 !important;">/</span><span style="font-weight: 400;font-size:1rem; color:#c7c7c7 !important;">month</span></p>
-                            </div>
-                            <div class="services mt-4">
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">20</span> Projects</p>
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">20</span> Pages</p>
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">200</span> Mb Disk Space</p>
-                            </div>
-                            <div class="container d-flex justify-content-center mt-4">
-                                <a class="btn text-white buy" style="background-color: #019be9;">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <!-- ADVANCED -->
-                    <div class="card">
-                        <div class="card-header" style="background-color:#3c4152; color:#d4d8e1; font-weight: 500;">
-                            <p style="margin-bottom: 0;">ADVANCED</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="d-flex justify-content-center" style="border-bottom: 1px solid #dddddd; border-radius: 5px;">
-                                <p class="mt-4" style="color:#a7a7a7; font-size:1.5rem; font-weight: 500;">$</p>
-                                <p style="font-size:5rem; font-weight: 400; color:#3c3c3c !important;">12<span style="font-weight: 400;font-size:1rem;color:#c7c7c7 !important;">/</span><span style="font-weight: 400;font-size:1rem; color:#c7c7c7 !important;">month</span></p>
-                            </div>
-                            <div class="services mt-4">
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">40</span> Projects</p>
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">40</span> Pages</p>
-                                <p style="color: #848484;"><span style="font-weight: 700; color:#3c3c3c !important;">500</span> Mb Disk Space</p>
-                            </div>
-                            <div class="container d-flex justify-content-center mt-4">
-                                <a class="btn text-white buy" style="background-color: #019be9;">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-        </div>
-    </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <div class="container-fluid d-flex flex-column align-items-center closing" style="height:100vh; background-color: #f5f5f5;">
-        <div class="row mb-4">
-            <div class="col-12">
-                <p style="font-size: 3rem; color: #9d9d9d;">Frecuently Asked Questions</p>
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Challenge 2</title>
+    </head>
+    <body>
+        <div class="container-fluid d-flex flex-column align-items-center head">
+            <h1 class="text-white text-center title">Simple Pricing!</h1>
+            <p class="text-white text-center mt-4 sub-title">
+                The most advanced customer support tools with a simple and
+                affordable pricing. And you can always try for 30 days, free!
+            </p>
+        </div>
+        <!-- CARDS -->
+        <div class="cards-container">
+            <!-- <div class="cards"> -->
+            <div
+                class="
+                    d-flex
+                    flex-wrap
+                    justify-content-md-between justify-content-center
+                    gap-3
+                "
+            >
+                <!-- <div class=""> -->
+                <!-- BASIC -->
+                <div class="card">
+                    <div
+                        class="card-header"
+                        style="
+                            background-color: #3c4152;
+                            color: #d4d8e1;
+                            font-weight: 500;
+                        "
+                    >
+                        <p style="margin-bottom: 0">BASIC</p>
+                    </div>
+                    <div class="card-body">
+                        <div
+                            class="d-flex justify-content-center"
+                            style="
+                                border-bottom: 1px solid #dddddd;
+                                border-radius: 5px;
+                            "
+                        >
+                            <p
+                                class="mt-4"
+                                style="
+                                    color: #a7a7a7;
+                                    font-size: 1.5rem;
+                                    font-weight: 500;
+                                "
+                            >
+                                $
+                            </p>
+                            <p
+                                style="
+                                    font-size: 5rem;
+                                    font-weight: 400;
+                                    color: #3c3c3c !important;
+                                "
+                            >
+                                4<span
+                                    style="
+                                        font-weight: 400;
+                                        font-size: 1rem;
+                                        color: #c7c7c7 !important;
+                                    "
+                                    >/</span
+                                ><span
+                                    style="
+                                        font-weight: 400;
+                                        font-size: 1rem;
+                                        color: #c7c7c7 !important;
+                                    "
+                                    >month</span
+                                >
+                            </p>
+                        </div>
+                        <div class="services mt-4">
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >10</span
+                                >
+                                Projects
+                            </p>
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >10</span
+                                >
+                                Pages
+                            </p>
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >100</span
+                                >
+                                Mb Disk Space
+                            </p>
+                        </div>
+                        <div
+                            class="container d-flex justify-content-center mt-4"
+                        >
+                            <a
+                                class="btn text-white buy"
+                                style="background-color: #019be9"
+                                >Buy Now</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class=""> -->
+                <!-- STANDARD -->
+                <div class="card">
+                    <div
+                        class="
+                            card-header
+                            d-flex
+                            justify-content-between
+                            align-items-center
+                        "
+                        style="
+                            background-color: #3c4152;
+                            color: #d4d8e1;
+                            font-weight: 500;
+                        "
+                    >
+                        <p style="margin-bottom: 0">STANDARD</p>
+                        <p style="margin-bottom: 0; font-size: 0.8rem">
+                            Save 15%
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <div
+                            class="d-flex justify-content-center"
+                            style="
+                                border-bottom: 1px solid #dddddd;
+                                border-radius: 5px;
+                            "
+                        >
+                            <p
+                                class="mt-4"
+                                style="
+                                    color: #a7a7a7;
+                                    font-size: 1.5rem;
+                                    font-weight: 500;
+                                "
+                            >
+                                $
+                            </p>
+                            <p
+                                style="
+                                    font-size: 5rem;
+                                    font-weight: 400;
+                                    color: #3c3c3c !important;
+                                "
+                            >
+                                8<span
+                                    style="
+                                        font-weight: 400;
+                                        font-size: 1rem;
+                                        color: #c7c7c7 !important;
+                                    "
+                                    >/</span
+                                ><span
+                                    style="
+                                        font-weight: 400;
+                                        font-size: 1rem;
+                                        color: #c7c7c7 !important;
+                                    "
+                                    >month</span
+                                >
+                            </p>
+                        </div>
+                        <div class="services mt-4">
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >20</span
+                                >
+                                Projects
+                            </p>
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >20</span
+                                >
+                                Pages
+                            </p>
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >200</span
+                                >
+                                Mb Disk Space
+                            </p>
+                        </div>
+                        <div
+                            class="container d-flex justify-content-center mt-4"
+                        >
+                            <a
+                                class="btn text-white buy"
+                                style="background-color: #019be9"
+                                >Buy Now</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class=""> -->
+                <!-- ADVANCED -->
+                <div class="card">
+                    <div
+                        class="card-header"
+                        style="
+                            background-color: #3c4152;
+                            color: #d4d8e1;
+                            font-weight: 500;
+                        "
+                    >
+                        <p style="margin-bottom: 0">ADVANCED</p>
+                    </div>
+                    <div class="card-body">
+                        <div
+                            class="d-flex justify-content-center"
+                            style="
+                                border-bottom: 1px solid #dddddd;
+                                border-radius: 5px;
+                            "
+                        >
+                            <p
+                                class="mt-4"
+                                style="
+                                    color: #a7a7a7;
+                                    font-size: 1.5rem;
+                                    font-weight: 500;
+                                "
+                            >
+                                $
+                            </p>
+                            <p
+                                style="
+                                    font-size: 5rem;
+                                    font-weight: 400;
+                                    color: #3c3c3c !important;
+                                "
+                            >
+                                12<span
+                                    style="
+                                        font-weight: 400;
+                                        font-size: 1rem;
+                                        color: #c7c7c7 !important;
+                                    "
+                                    >/</span
+                                ><span
+                                    style="
+                                        font-weight: 400;
+                                        font-size: 1rem;
+                                        color: #c7c7c7 !important;
+                                    "
+                                    >month</span
+                                >
+                            </p>
+                        </div>
+                        <div class="services mt-4">
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >40</span
+                                >
+                                Projects
+                            </p>
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >40</span
+                                >
+                                Pages
+                            </p>
+                            <p style="color: #848484">
+                                <span
+                                    style="
+                                        font-weight: 700;
+                                        color: #3c3c3c !important;
+                                    "
+                                    >500</span
+                                >
+                                Mb Disk Space
+                            </p>
+                        </div>
+                        <div
+                            class="container d-flex justify-content-center mt-4"
+                        >
+                            <a
+                                class="btn text-white buy"
+                                style="background-color: #019be9"
+                                >Buy Now</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+            <!-- </div> -->
+        </div>
+        <!-- FOOTER -->
+        <div
+            class="
+                container-fluid
+                d-flex
+                flex-column
+                align-items-center
+                closing
+                footer-container
+            "
+        >
+            <div class="row mb-4">
+                <div class="col-12">
+                    <p class="footer-title">Frecuently Asked Questions</p>
+                </div>
+            </div>
+            <div
+                class="
+                    d-flex
+                    justify-content-between
+                    flex-wrap flex-md-nowrap
+                    footer-list
+                    gap-5
+                "
+            >
+                <div>
+                    <p style="font-weight: 700; color: #9d9d9d">
+                        How does free trial work?
+                    </p>
+                    <p style="color: #bdbdbd">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Sapiente quas aliquid sunt praesentium dicta
+                        veniam quia qui doloremque consectetur repudiandae?
+                    </p>
+                </div>
+                <div>
+                    <p style="font-weight: 700; color: #9d9d9d">
+                        Can i cancel any time?
+                    </p>
+                    <p style="color: #bdbdbd">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse aut, itaque, aliquid, dolorum alias commodi
+                        doloribus architecto quaerat sequi et eveniet.
+                        Obcaecati, nihil.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="row mt-3">
-            <div class="col-4 offset-2">
-                <p style="font-weight: 700; color:#9d9d9d">How does free trial work?</p>
-                <p style="color:#bdbdbd;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quas aliquid sunt praesentium dicta veniam quia qui doloremque consectetur repudiandae?</p>
-            </div>
-            <div class="col-4">
-                <p style="font-weight: 700; color:#9d9d9d">Can i cancel any time?</p>
-                <p style="color:#bdbdbd;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut, itaque, aliquid, dolorum alias commodi doloribus architecto quaerat sequi et eveniet. Obcaecati, nihil.</p>
-            </div>
-        </div>
-
-    </div>
-    <script src="./script.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-</body>
+        <script src="./script.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+    </body>
 </html>
